@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60f085f143361bb0195bf30c22f65aef",
+    "content-hash": "0e7da1b993402e859a8816d2a7cacfcd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4988,6 +4988,59 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2020-07-13T06:12:54+00:00"
+        },
+        {
+            "name": "vizir/laravel-keycloak-web-guard",
+            "version": "v2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Vizir/laravel-keycloak-web-guard.git",
+                "reference": "84f18b5464b0f643f31c43774711536c0433e190"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Vizir/laravel-keycloak-web-guard/zipball/84f18b5464b0f643f31c43774711536c0433e190",
+                "reference": "84f18b5464b0f643f31c43774711536c0433e190",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.5|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vizir\\KeycloakWebGuard\\KeycloakWebGuardServiceProvider"
+                    ],
+                    "aliases": {
+                        "KeycloakWeb": "Vizir\\KeycloakWebGuard\\Facades\\KeycloakWeb"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vizir\\KeycloakWebGuard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mário Valney",
+                    "email": "mariovalney@gmail.com"
+                }
+            ],
+            "description": "Simple Keycloak Guard to Laravel Web Routes",
+            "homepage": "https://github.com/Vizir/laravel-keycloak-web-guard",
+            "keywords": [
+                "Authentication",
+                "jwt",
+                "keycloak",
+                "laravel"
+            ],
+            "time": "2021-01-28T00:39:44+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
